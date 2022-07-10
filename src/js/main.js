@@ -226,6 +226,76 @@ $(function() {
 
   bar.animate(.85);
 
+  var bar = new ProgressBar.Line(lineprogC, {
+    strokeWidth: 1.72,
+    easing: 'easeInOut',
+    duration: 1400,
+    delay: 2800,
+    trailWidth: 1.72,
+    svgStyle: {
+      width: '100%',
+      height: '100%'
+    }
+  });
+
+  bar.animate(1);
+
+  var bar = new ProgressBar.Line(lineprogNet, {
+    strokeWidth: 1.72,
+    easing: 'easeInOut',
+    duration: 1400,
+    delay: 2900,
+    trailWidth: 1.72,
+    svgStyle: {
+      width: '100%',
+      height: '100%'
+    }
+  });
+
+  bar.animate(.95);
+
+  var bar = new ProgressBar.Line(lineprogClean, {
+    strokeWidth: 1.72,
+    easing: 'easeInOut',
+    duration: 1400,
+    delay: 3000,
+    trailWidth: 1.72,
+    svgStyle: {
+      width: '100%',
+      height: '100%'
+    }
+  });
+
+  bar.animate(.95);
+
+  var bar = new ProgressBar.Line(lineprogSql, {
+    strokeWidth: 1.72,
+    easing: 'easeInOut',
+    duration: 1400,
+    delay: 3100,
+    trailWidth: 1.72,
+    svgStyle: {
+      width: '100%',
+      height: '100%'
+    }
+  });
+
+  bar.animate(.75);
+
+  var bar = new ProgressBar.Line(lineprogNosql, {
+    strokeWidth: 1.72,
+    easing: 'easeInOut',
+    duration: 1400,
+    delay: 3200,
+    trailWidth: 1.72,
+    svgStyle: {
+      width: '100%',
+      height: '100%'
+    }
+  });
+
+  bar.animate(.85);
+
   // Contact form
   $('.art-input').keyup(function() {
     if ($(this).val()) {
